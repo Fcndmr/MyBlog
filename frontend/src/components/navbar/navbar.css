@@ -38,6 +38,10 @@ body{
     transition: 0.3s;
 }
 
+.nav-links a.active {
+    border-bottom: 2px solid white;
+  }
+
 .nav-links a:hover{
     background-color: #555;
     border-radius: 5px;

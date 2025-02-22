@@ -1,0 +1,70 @@
+.homepage-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hero Bölümü */
+.hero {
+    background-color: #222;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Bölümü */
+.about-section {
+    margin-top: 40px;
+}
+
+.about-section h2 {
+    color: #222;
+}
+
+/* Kartlar Bölümü */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* İletişim Bölümü */
+.contact-section {
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

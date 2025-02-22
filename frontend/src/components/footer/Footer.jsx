@@ -1,13 +1,17 @@
-import "./footer.css"
+import "./footer.css";
 
 function Footer() {
   return (
     <>
-        <footer className="footer">
-        © 2025 Tüm Hakları Saklıdır | <a href="#">Gizlilik Politikası</a>
-        </footer>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} Tüm Hakları Saklıdır</p>
+        <nav>
+          <a href="#">Gizlilik Politikası</a> |{" "}
+          <a href="#">Şartlar ve Koşullar</a>
+        </nav>
+      </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
