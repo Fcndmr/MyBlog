@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import DetailsPage from "./pages/DetailsPage";
+import NotFound from "./pages/NotFound";
 import './App.css'
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/details" element={<DetailsPage />} /> 
+        <Route path="/details" element={<DetailsPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
     </>
