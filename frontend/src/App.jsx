@@ -7,6 +7,7 @@ import Contact from "./pages/Contact"
 import DetailsPage from "./pages/DetailsPage";
 import NotFound from "./pages/NotFound";
 import './App.css'
+import Color from "./components/color/Color"
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path="/details/:id" element={<DetailsPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Color/>
       <Footer/>
     </>
   )
