@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Card from "../components/card/Card";
-import "./homepage.css";
+import "../css/homepage.css";
 import { CardContext } from "../context/CardContext";
 
 function HomePage() {

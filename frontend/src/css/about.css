@@ -1,0 +1,75 @@
+.about-container {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Başlık */
+  .about-container h1 {
+    color: #222;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Açıklama */
+  .about-container p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 1.3rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  /* Takım Bölümü */
+  .team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  /* Takım Üyesi */
+  .team-member {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Profil Resmi */
+  .team-member img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .team-member:hover img {
+    border-color: #0056b3;
+  }
+  
+  /* İsim ve Rol */
+  .team-member h3 {
+    margin: 15px 0 5px;
+    font-size: 1.5rem;
+    color: #222;
+  }
+  
+  .team-member p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  

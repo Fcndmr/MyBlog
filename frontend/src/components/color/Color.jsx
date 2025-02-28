@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "./color.css";
+import "../css/color.css";
 
 function Color() {
   const [red, setRed] = useState(0);
-  const [green, setGreen] = useState(0);
+  const [green, setGreen] = useState(255);
   const [blue, setBlue] = useState(0);
   const [alpha, setAlpha] = useState(1);
 

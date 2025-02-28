@@ -1,10 +1,11 @@
 import { useLocation, useNavigate, useParams } from "react-router-dom";
+import "../css/DetailsPage.css"
 
 function DetailsPage() {
   const { id } = useParams();
-  const location = useLocation(); // Kart bilgilerini alıyoruz
+  const location = useLocation(); 
   const navigate = useNavigate();
-  const { img, title, description } = location.state || {}; // Gelen verileri çıkartıyoruz
+  const { img, title, description } = location.state || {}; 
 
   if (!img || !title || !description) {
     return <h2>Veri bulunamadı!</h2>;
@@ -16,7 +17,7 @@ function DetailsPage() {
       <img src={img} alt={title} />
       <h2>{title}</h2>
       <p>{description}</p>
-      <button onClick={() => navigate(-1)}>Geri Dön</button> {/* Geri butonu */}
+      <button onClick={() => navigate(-1)}>Geri Dön</button> 
     </div>
   );
 }

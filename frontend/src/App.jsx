@@ -6,7 +6,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import DetailsPage from "./pages/DetailsPage";
 import NotFound from "./pages/NotFound";
-import './App.css'
+import './css/App.css'
 import Color from "./components/color/Color"
 
 function App() {

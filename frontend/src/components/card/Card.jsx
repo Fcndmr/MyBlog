@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom"; // Sayfa yönlendirme için
-import "./card.css";
+import "../css/card.css";
 
 function Card({ _id,img, title, description }) {
   const navigate = useNavigate();
