@@ -102,4 +102,12 @@
     transform: scale(1.05);
     box-shadow: 0 5px 10px rgba(0, 123, 255, 0.4);
   }
+
+  .no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  
   
